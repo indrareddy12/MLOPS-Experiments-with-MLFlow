@@ -18,8 +18,8 @@ y = wine.target
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.10, random_state=42)
 
 # Define the params for RF model
-max_depth = 10
-n_estimators = 5
+max_depth = 11
+n_estimators = 7
 
 # Mention your experiment below
 mlflow.set_experiment('YT-MLOPS-Exp1')

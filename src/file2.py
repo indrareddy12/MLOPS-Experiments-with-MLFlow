@@ -8,9 +8,9 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 import dagshub
-dagshub.init(repo_owner='vikashdasXXX', repo_name='YT-MLOPS-Experiments-with-MLFlow', mlflow=True)
+dagshub.init(repo_owner='indrareddy12', repo_name='MLOPSExperimentswithMLFlow', mlflow=True)
 
-mlflow.set_tracking_uri("https://dagshub.com/vikashdas770/")
+mlflow.set_tracking_uri("https://dagshub.com/indrasenareddybathini86/MLOPS-Experiments-with-MLFlow.mlflow")
 
 # Load Wine dataset
 wine = load_wine()
